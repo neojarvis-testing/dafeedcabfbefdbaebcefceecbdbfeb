@@ -1,9 +1,9 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
   <temporaryOfflineCause class="hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace">
-    <timestamp>1738757545139</timestamp>
+    <timestamp>1738757689326</timestamp>
     <path>/home/coder/project/workspace/jenkins</path>
-    <size>599019520</size>
+    <size>595013632</size>
     <totalSize>1020702720</totalSize>
     <trigger>hudson.node_monitors.DiskSpaceMonitor</trigger>
     <threshold>1073741824</threshold>
@@ -13,12 +13,14 @@
   <version>2.479.3</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.AuthorizationStrategy$Unsecured"/>
   <securityRealm class="hudson.security.SecurityRealm$None"/>
   <disableRememberMe>false</disableRememberMe>
   <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
   <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
   <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
   <jdks/>
   <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
@@ -37,7 +39,7 @@
   <slaveAgentPort>0</slaveAgentPort>
   <label></label>
   <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
-    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+    <excludeClientIPFromCrumb>true</excludeClientIPFromCrumb>
   </crumbIssuer>
   <nodeProperties/>
   <globalNodeProperties/>
