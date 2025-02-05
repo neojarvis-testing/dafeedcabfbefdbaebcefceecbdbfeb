@@ -1,9 +1,9 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
   <temporaryOfflineCause class="hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace">
-    <timestamp>1738756423626</timestamp>
+    <timestamp>1738757545139</timestamp>
     <path>/home/coder/project/workspace/jenkins</path>
-    <size>695824384</size>
+    <size>599019520</size>
     <totalSize>1020702720</totalSize>
     <trigger>hudson.node_monitors.DiskSpaceMonitor</trigger>
     <threshold>1073741824</threshold>
